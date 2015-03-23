@@ -1,0 +1,91 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF8" />
+		<title>Перевод чисел в разные системы счисления</title>
+		<script
+			src="anketa_optimize.js">
+		</script>	
+		<link rel="stylesheet" href="style.css" >
+	</head>
+	<body>	
+		<h2 align="center">Заполните анкету пользователя</h2>			
+		<TABLE align = "center" >
+			<TR>
+				<th>Имя</th>					
+				<TD>				
+					<form align="center">						
+					<input type="text" id="name" /> 
+				</TD>
+				<TD>
+					<p id="check_name"></p>				
+				</TD>
+			</TR>
+			<TR>
+				<th>Фамилия</th>	
+				<TD>									
+					<input type="text" id="famile" />
+				</TD>
+				<TD>
+					 <p id="check_famile"></p>				
+				</TD>
+			</TR>
+			<TR>
+				<th>Имя учетной записи</th>					
+				<TD>									
+					<input type="text" id="nickname" /> 
+				</TD>
+				<TD>
+					<p id="check_nickname"></p>				
+				</TD>
+			</TR>
+			<TR>
+				<th>Дата Рождения (дд.мм.гггг)</th>	
+				<TD>									
+					<input type="text" id="data" />
+				</TD>
+				<TD>
+					 <p id="check_data"></p>				
+				</TD>
+			</TR>
+			<TR>
+				<th>Электронная почта</th>	
+				<TD>										
+					<input type="text" id="email" />
+				</TD>
+				<TD>
+					 <p id="check_email"></p>				
+				</TD>
+			</TR>				
+			<TR>
+				<th>Ваш телефон (сот/дом)</th>	
+				<TD>										
+					<input type="text" id="phone" />
+				</TD>
+				<TD>
+					 <p id="check_phone"></p>				
+				</TD>
+			</TR>
+			<TR>
+				<th>Номер банковской карты</th>	
+				<TD>										
+					<input type="text" id="bank" />
+				</TD>
+				<TD>
+					 <p id="check_bank"></p>				
+				</TD>
+			</TR>
+			<TR>
+				<th>Паспортные данные (серия-номер)</th>	
+				<TD>										
+					<input type="text" id="pasport" />
+				</TD>
+				<TD>
+					 <p id="check_pasport"></p>				
+				</TD>
+			</TR>
+		</TABLE>						
+			<p align="center"> <input   type="button" id="idbutton" onclick="check_error()" value="Потвердить" /></p>
+		</form>								
+	</body>
+</html>
